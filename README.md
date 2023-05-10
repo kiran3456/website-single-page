@@ -4,6 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Updates
 
+# References
+
+## How to divide webpage into sections horizontally
+
+- https://linuxhint.com/use-div-tag-html-divide-page/
+
 ## Available Scripts
 
 In the project directory, you can run:
