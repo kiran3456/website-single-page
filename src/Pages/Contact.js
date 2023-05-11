@@ -4,8 +4,8 @@ import "./Contact.css";
 function Contact() {
   return (
     <>
-      <div class="two">Contact Hero Section</div>
-      <div class="three">Contactn Content Section</div>
+      <div className="c-two">Contact Hero Section</div>
+      <div className="c-three">Contactn Content Section</div>
     </>
   );
 }

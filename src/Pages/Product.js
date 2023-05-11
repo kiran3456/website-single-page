@@ -4,8 +4,8 @@ import "./Product.css";
 function Product() {
   return (
     <>
-      <div class="two">Product Hero Section</div>
-      <div class="three">Product Content Section</div>
+      <div className="c-two">Product Hero Section</div>
+      <div className="c-three">Product Content Section</div>
     </>
   );
 }

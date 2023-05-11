@@ -15,7 +15,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/product" element={<Product />} />
         </Routes>
-        <div class="four">Common Footer</div>
+        <div className="common-footer">Common Footer</div>
       </Router>
     </>
   );
