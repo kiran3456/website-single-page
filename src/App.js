@@ -4,6 +4,8 @@ import Contact from "./Pages/Contact";
 import Product from "./Pages/Product";
 import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ImageSlider from "./components/ImageSlider";
+import { SliderData } from "./components/SliderData";
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         </Routes>
         <div className="common-footer">Common Footer</div>
       </Router>
+      <ImageSlider slides={SliderData} />;
     </>
   );
 }
