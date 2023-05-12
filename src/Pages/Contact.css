@@ -31,3 +31,28 @@
   align-items: center;
   justify-content: center;
 }
+.c-text {
+  list-style-position: outside;
+  list-style: square;
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+.c-table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.c-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c-table,
+td {
+  padding: 15px;
+}

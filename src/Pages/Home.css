@@ -31,3 +31,28 @@
   align-items: center;
   justify-content: center;
 }
+.h-text {
+  list-style-position: outside;
+  list-style: square;
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+.h-table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.h-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.h-table,
+td {
+  padding: 15px;
+}
