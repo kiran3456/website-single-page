@@ -21,3 +21,13 @@
   height: 400px;
   width: 100%;
 }
+.h-para {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
