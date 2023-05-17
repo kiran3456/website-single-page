@@ -2,16 +2,16 @@ import React from "react";
 import "./Home.css";
 import Button from "../components/Button";
 import ImageSlider from "../components/ImageSlider";
+import { SliderData } from "../components/ImageSliderData";
 
-function home() {
+function Home() {
   return (
     <>
       <div className="h-two">
-        Home Hero Section
-        <Button />
+        <ImageSlider slides={SliderData} />
+        {/* <Button /> */}
       </div>
       <div className="h-three">
-        <h1>Home Content Section</h1>
         <div>
           <h1>Paragraph</h1>
           <p className="h-para">
@@ -56,4 +56,4 @@ function home() {
   );
 }
 
-export default home;
+export default Home;

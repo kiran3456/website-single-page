@@ -2,7 +2,7 @@
   margin-top: 80px;
   text-align: center;
   font-size: 30px;
-  background-color: orange;
+  background-color: white;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -11,48 +11,57 @@
   width: 100%;
 }
 .h-three {
-  text-align: center;
+  text-align: start;
   font-size: 30px;
-  background-color: hotpink;
+  background-color: white;
   padding: 10px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 400px;
+  align-items: start;
+  justify-content: start;
+  height: 670px;
   width: 100%;
+  flex-direction: column;
 }
 .h-para {
-  background-color: black;
-  color: white;
-  text-align: center;
+  /* background-color: black; */
+  color: black;
+  text-align: start;
   font-size: 30px;
   padding: 10px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: start;
+  margin-left: -10px;
 }
+
 .h-text {
-  list-style-position: outside;
+  /* list-style-position: outside; */
   list-style: square;
-  background: #ffe5e5;
-  color: darkred;
-  padding: 5px;
-  margin-left: 35px;
+  /* background: #ffe5e5; */
+  color: rgb(19, 17, 17);
+  /* padding: 5px; */
+  margin-left: 20px;
 }
 
 .h-table,
 td,
 th {
-  border: 1px solid #ddd;
+  border: 5px solid #191212;
   text-align: left;
 }
 
 .h-table {
   border-collapse: collapse;
   width: 100%;
+  margin-left: 1px;
+  border: #191212;
+  padding: 10px;
 }
-
 .h-table,
-td {
-  padding: 15px;
+th {
+  border: 5px solid #191212;
+  padding: 10px;
 }
+/* .table {
+  margin-left: 1px;
+} */

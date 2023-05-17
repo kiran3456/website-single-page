@@ -1,16 +1,15 @@
 import React from "react";
 import "./Product.css";
-import Button from "../components/Button";
+import ImageSlider from "../components/ImageSlider";
+import { SliderData } from "../components/ImageSliderData";
 
 function Product() {
   return (
     <>
       <div className="p-two">
-        Product Hero Section
-        <Button />
+        <ImageSlider slides={SliderData} />
       </div>
       <div className="p-three">
-        <h1>Product Content Section</h1>
         <div>
           <h1>Paragraph</h1>
           <p className="p-para">
